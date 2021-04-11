@@ -1,0 +1,40 @@
+{
+  "name": "Course",
+  "fields": [
+    {
+      "fieldName": "timerequired",
+      "fieldType": "Integer",
+      "fieldValidateRules": [
+        "required"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "panier",
+      "otherEntityRelationshipName": "course",
+      "relationshipName": "panier",
+      "otherEntityField": "id",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "restaurant",
+      "otherEntityRelationshipName": "course",
+      "relationshipName": "restaurant",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210411095818",
+  "entityTableName": "course",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

@@ -1,0 +1,24 @@
+{
+  "dmglApp": {
+    "course": {
+      "home": {
+        "title": "Courses",
+        "createLabel": "Course erstellen",
+        "createOrEditLabel": "Course erstellen oder bearbeiten",
+        "notFound": "No Courses found"
+      },
+      "created": "Course erstellt mit ID {{ param }}",
+      "updated": "Course aktualisiert mit ID {{ param }}",
+      "deleted": "Course gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Course {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Course"
+      },
+      "timerequired": "Timerequired",
+      "panier": "Panier",
+      "restaurant": "Restaurant"
+    }
+  }
+}
